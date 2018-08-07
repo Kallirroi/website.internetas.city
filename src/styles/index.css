@@ -1,0 +1,56 @@
+/*------------------------general------------------------*/
+@font-face {
+    font-family: 'Inter UI';
+	src: url('https://rsms.me/inter/inter-ui.css')
+}
+
+body {
+	font-family: 'Inter UI', 'system-ui', sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	overflow-y: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	font-weight: 500;
+}
+
+a:visited {
+	color: #000;
+}
+
+/*------------------------index------------------------*/
+
+.pageTitle {
+	margin: 0 auto;
+	max-width: 90vw;
+	padding-top: 10vh;
+	padding-bottom: 4vh;
+}
+
+.pageTitle > a {
+	font-weight: 500;
+}
+
+.index {
+	max-width: 90vw;
+	margin: 0 auto;
+	max-height: 70vh;
+	overflow-y: scroll;
+}
+
+.index  > .postThumbnail {
+	margin-bottom: 1vh;
+	padding: 0.2vh 0;
+	/*border-bottom: 1.5px solid;*/
+}
+
+.index  > .postThumbnail:hover {
+	/*border-bottom: 1.5px dashed;*/
+}
+
