@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Internet as a city",
-    author: "Kalli",
+    author: "Kalli"
   },
   plugins: [
     {

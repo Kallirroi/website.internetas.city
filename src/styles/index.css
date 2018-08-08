@@ -1,8 +1,5 @@
 /*------------------------general------------------------*/
-@font-face {
-    font-family: 'Inter UI';
-	src: url('https://rsms.me/inter/inter-ui.css')
-}
+@import url('https://rsms.me/inter/inter-ui.css');
 
 body {
 	font-family: 'Inter UI', 'system-ui', sans-serif;
@@ -16,41 +13,65 @@ a {
 	color: #000;
 }
 
-a:hover {
-	font-weight: 500;
-}
 
 a:visited {
 	color: #000;
 }
 
 /*------------------------index------------------------*/
-
 .pageTitle {
-	margin: 0 auto;
 	max-width: 90vw;
-	padding-top: 10vh;
-	padding-bottom: 4vh;
-}
-
-.pageTitle > a {
-	font-weight: 500;
+	margin: 0 auto;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing: 0.2rem;
+	/*border: 1px solid;*/
 }
 
 .index {
-	max-width: 90vw;
 	margin: 0 auto;
-	max-height: 70vh;
-	overflow-y: scroll;
+	max-width: 90vw;
+	max-height: 90vh;
+	padding-top: 5vh;
+	/*border: 1px solid;*/
 }
 
-.index  > .postThumbnail {
-	margin-bottom: 1vh;
-	padding: 0.2vh 0;
-	/*border-bottom: 1.5px solid;*/
+/*------------------------posts------------------------*/
+
+.index  > .row {
+	margin: 0 auto;
+	max-width: 90vw;
+	height: 14vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	/*border: 1px solid;*/
 }
 
-.index  > .postThumbnail:hover {
-	/*border-bottom: 1.5px dashed;*/
+.row > .page {
+	width: 10vw;
+	align-self: center;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 
+.row > .page:hover {
+	font-weight: 600;
+}
+
+/*------------------------fragments------------------------*/
+
+.row  > img.fragments {
+	margin: auto; 
+	width: 60px;
+	align-self: center;
+}
+
+.row  >  img.fragments:hover {
+	/*opacity: 0.7;*/
+	filter: drop-shadow(16px 16px 20px #00f);
+}

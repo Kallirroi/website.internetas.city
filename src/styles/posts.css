@@ -1,27 +1,20 @@
 .postMain {
-	margin: 2vh 0 4vh 0;
-	/*border: 1px solid red;*/
-	line-height: 1.5;
-	max-width: 50vw;
-	margin: 0 auto;
-	max-height: 70vh;
-	overflow-y: scroll;
-	padding-bottom: 2vh;
+	/*border: 1px solid;*/
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
-.postMain > .postTitle {
-	/*font-weight: bold;*/
-	text-transform: uppercase;
-	text-align: center;
-}
 
 .postMain > .postBody {
-	color: #000;
-	text-align: left;
-	margin-top: 8vh;
-	margin-bottom: 20vh;
-	border: 1px solid red;
-
+  line-height: 1.3;
+  max-width: 25vw;
+  margin: 0 auto;
+  max-height: 75vh;
+  overflow-y: scroll;
+  padding: 10vh 0;
 }
 
 .postBody > p  > a {
@@ -39,4 +32,38 @@
 
 .postBody > h4 {
 	font-weight: 500;
+}
+
+/* ------------- Screensaver---------------- */
+#screensaver {
+    display: none;
+    background-color: transparent;
+    z-index: -1;
+}
+#screensaver.starting {
+  background-color: transparent;
+}
+#screensaver.starting,
+#screensaver.active {
+  position: fixed;
+  display: block;
+}
+#screensaver .item {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#screensaver .item.active {
+  opacity: 1;
 }
