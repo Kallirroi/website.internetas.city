@@ -183,7 +183,6 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    console.log(fragments)
     return (
       <div className="postMain">
         <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
