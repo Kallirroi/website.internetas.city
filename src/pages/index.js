@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import "../styles/index.css";
-import {fragments} from './fragments';
+import {fragments} from '../templates/fragments';
 
 class BlogIndex extends React.Component {
   render() {

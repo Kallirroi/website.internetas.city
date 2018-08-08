@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "dat": "^13.11.3",
-    "gatsby": "^1.8.12",
+    "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.8",
     "gatsby-plugin-google-analytics": "^1.0.4",
     "gatsby-plugin-manifest": "^1.0.4",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "gh-pages": "^0.12.0",
-    "prettier": "^1.6.1"
+    "prettier": "^1.14.1"
   },
   "homepage": "https://github.com/noahg/gatsby-starter-blog-no-styles#readme",
   "keywords": [
