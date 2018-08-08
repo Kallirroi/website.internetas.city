@@ -10,3 +10,5 @@ Here are some photos we took while the workshop was unfolding.
 ![geocities](geocities.jpg)
 
 ![creativecommons](creativecommons.jpg)
+
+We are currently in the process of scanning a lot of the drawings people made, and will update the website once that is done.
