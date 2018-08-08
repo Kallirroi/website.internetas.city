@@ -19,12 +19,9 @@ export const fragments = [
 	},
 	{
 		path: 'images/7.png'
-	}	
-	,{
-		path: 'images/8.png'
-	},
+	},	
 	{
-		path: 'images/9.png'
+		path: 'images/8.png'
 	},
 	{
 		path: 'images/11.png'
