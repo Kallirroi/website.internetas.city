@@ -26,6 +26,7 @@ class BlogIndex extends React.Component {
               </div>
             )
           })}
+          <a href="dat://internetasacity.hashbase.io/" className="footer">p2p version</a>
         </div>
     )
   }

@@ -28,11 +28,5 @@ export const fragments = [
 	},
 	{
 		path: 'images/11.png'
-	},
-	{
-		path: 'images/15.png'
-	},
-	{
-		path: 'images/16.png'
 	}
 ];	

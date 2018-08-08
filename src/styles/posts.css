@@ -24,8 +24,7 @@
 }
 
 .postBody > p  > a {
-	font-weight: 500;
-  text-decoration: underline;
+	border-bottom: 1px solid;
 }
 
 .postBody > ul {
