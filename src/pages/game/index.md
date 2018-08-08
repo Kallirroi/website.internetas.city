@@ -3,7 +3,9 @@ title: game
 date: "4"
 ---
 
-Sam made a Unity environment that you can load on your browser and start building structures using the primitive objects modeled after the shapes we fabricated for the actual workshop. You can access the environment [here](https://internetas.city/).
+Parallel to the in-person workshop is a browser-based sandbox environment. In this virtual space you can similarly select, drop, and move primitives to imagine decentralized compositions. 
+
+You can access the environment* [here](https://internetas.city/).
 
 ![caption](game.png)
 
@@ -13,3 +15,4 @@ Sam made a Unity environment that you can load on your browser and start buildin
 
 ![caption](game4.png)
 
+*Note: this is a Unity based environment that doesn't always play well with different browsers!
