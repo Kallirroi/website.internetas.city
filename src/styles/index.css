@@ -1,11 +1,22 @@
 /*------------------------general------------------------*/
 @import url('https://rsms.me/inter/inter-ui.css');
 
+@font-face {
+  font-family: 'Akzidenz';
+  src: url('AkzidenzRegular.otf');
+}
+
+@font-face {
+  font-family: 'NeueHaasGrot';
+  src: url('NeueHaasGrotRoman.otf');
+}
+
 body {
-	font-family: 'Inter UI', 'system-ui', sans-serif;
+	font-family: 'NeueHaasGrot', 'Akzidenz', 'Inter UI', 'system-ui', sans-serif;
 	font-size: 14px;
-	line-height: 19px;
 	overflow-y: hidden;
+	line-height: 1.5;
+	letter-spacing: 0.07rem;
 }
 
 a {
@@ -72,6 +83,5 @@ a:visited {
 }
 
 .row  >  img.fragments:hover {
-	/*opacity: 0.7;*/
-	filter: drop-shadow(16px 16px 20px #00f);
+	filter: drop-shadow(6px 6px 20px #aaa) hue-rotate(180deg);
 }

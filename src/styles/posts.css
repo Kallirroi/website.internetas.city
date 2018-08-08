@@ -9,16 +9,23 @@
 
 
 .postMain > .postBody {
-  line-height: 1.3;
-  max-width: 25vw;
+  line-height: 1.5;
+  max-width: 30vw;
   margin: 0 auto;
-  max-height: 75vh;
+  max-height: 80vh;
   overflow-y: scroll;
-  padding: 10vh 0;
+  padding: 0 2vw 5vh 2vw;
+  margin-top: 10vh;
+  /*border: 1px solid;*/
+}
+
+.postMain > .postBody::-webkit-scrollbar {
+ display: none;
 }
 
 .postBody > p  > a {
 	font-weight: 500;
+  text-decoration: underline;
 }
 
 .postBody > ul {

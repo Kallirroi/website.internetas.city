@@ -3,24 +3,18 @@ title: about the workshop
 date: "5"
 ---
 
-We hosted a workshop.
+<img src="https://d2w9rnfcy7mm78.cloudfront.net/2376080/original_d162c6e10d57f79f4877e84a7a55c4db.jpg" 
+alt="yonafriedman" width="100%" />
+<i>image credit: Yona Friedman</i>
 
-Iste amet similique dolores recusandae occaecati est nesciunt. Veniam ut illo atque ut aut ut at inventore. Explicabo harum iure modi. Odit sapiente pariatur occaecati voluptas ut fugit harum consequatur. Ea sit odit placeat tenetur occaecati porro. Nihil nulla quo ut sunt.
+If the Internet were a city, what would be its roads, buildings, and parks? How do people, businesses and governing bodies produce insights into the qualitative characteristics of distribution beyond the tired triptych of centralized, decentralized, and distributed?
 
-Maxime labore ut inventore quod et. Vel enim dolores ducimus quibusdam ex. Quaerat sed fugiat consequuntur et exercitationem.
+In this hands-on workshop, we'll examine decentralized forms of networking through the lenses of cities, urbanism, and architecture. In small groups, participants will be provided with “urban” elements to construct landscapes that tease out models of decentralization and governance for the “Internet as a city.”
 
-Distinctio amet voluptas architecto deleniti quia. Sapiente quae facilis in ad hic. Quis non ut perferendis est. Nobis labore ut est. Laudantium quo magni magni.
+We will extend this exploration to modes of governance in decision making, and notions of “public space” or the commons.
 
-Id dolor sequi repellendus. Provident rem consectetur nam et ut quis quia. Eum nobis qui ut quia doloremque impedit ea.
+<br>
 
-Ad voluptates magni consequuntur impedit eaque est quia. Nostrum facilis sit libero veritatis aut velit aspernatur nobis. Occaecati vero aut aut velit sint amet. Expedita dicta vel ipsum consequuntur numquam aut. Quia nulla natus rerum nihil.
+<b>links</b>
 
-Totam amet sit et. Fuga omnis eos qui aut. Accusamus veritatis rerum accusamus quasi nisi sit. Iusto ut illo consectetur velit adipisci doloremque rerum deleniti. Expedita sit et numquam quae et tempore sed impedit. Enim deleniti pariatur nobis vel nihil.
-
-Iusto dignissimos eos aliquid velit doloremque sit. Quos amet eos repudiandae eum nihil exercitationem illo velit. Ea sit eligendi et velit.
-
-Autem alias iure molestiae aut incidunt tenetur ipsam libero. Ut est voluptate nihil rem. Neque est nihil sit corporis vel. Non ut aperiam temporibus totam veritatis omnis. Saepe sed et consequatur sunt sit soluta eos. Quo ad dolores repudiandae numquam.
-
-Fugit laudantium quis et. Voluptatem qui sit veniam qui unde expedita. Error aut cupiditate et. Quas vel accusantium qui porro dolor et necessitatibus. Nesciunt quia qui dolorum sequi fuga atque ullam magni. Repellat atque tenetur consequuntur asperiores enim.
-
-Dolor doloribus tempora maxime. Earum soluta temporibus et iusto fugiat fuga itaque delectus. Provident dolore fuga architecto temporibus. Dolor molestiae corrupti iusto sunt quia assumenda impedit. Officiis officia sunt quia debitis molestiae blanditiis omnis optio. Quis quam maxime debitis exercitationem.
+[are.na channel](https://www.are.na/kalli-retzepi/internet-as-a-city)
