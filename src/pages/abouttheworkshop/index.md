@@ -14,14 +14,16 @@ In this hands-on workshop, wel examine decentralized forms of networking through
 
 We  extend this exploration to modes of governance in decision making, and notions of “public space” or the commons.
 
-The first iteration of this workshop was held at the [Decentralized Web Summit 2018] (https://decentralizedweb.net/internet-as-a-city/).
+The first iteration of this workshop was held at the [Decentralized Web Summit 2018](https://decentralizedweb.net/internet-as-a-city/).
 
 Since then, then the program has been adopted by ArtsEd4All.
 
-We have some more iterations of this workshop that we are planning on the east coast. Are you interested in facilitating a workshop? [Email us!] (studio.pasmal@gmail.com) Are you interested in holding a workshop yourself? [Download the files] (?)
+We have some more iterations of this workshop that we are planning on the east coast. Are you interested in facilitating a workshop? [Email us!](studio.pasmal@gmail.com). 
+
+Are you interested in holding a workshop yourself? [Download the files](?).
 
 <br>
 
 
-
+<b>useful links</b> <br>
 [are.na channel](https://www.are.na/kalli-retzepi/internet-as-a-city)
