@@ -2,14 +2,32 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import "../styles/index.css";
-import {fragments} from '../templates/fragments';
+import "../styles/index.css"
+import {fragments} from '../templates/fragments'
+import {sounds} from '../templates/sounds'
 
 class BlogIndex extends React.Component {
+
+  constructor(props) {
+    super();
+    this.handleMouseEnter=this.handleMouseEnter.bind(this);
+    this.handleMouseLeave=this.handleMouseLeave.bind(this);
+    this.onRef = ref => this.audioElement = ref;
+  }
+
+  handleMouseEnter = () => {
+    this.audioElement.volume  = 0.3
+    this.audioElement.play()
+  };  
+
+  handleMouseLeave = () => {
+    // this.audioElement.stop()
+    this.audioElement.pause()
+  };
+
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
-    
     return (
         <div className="index">
           <Helmet title={siteTitle} />
@@ -17,12 +35,22 @@ class BlogIndex extends React.Component {
             const title = get(node, 'frontmatter.title') || node.fields.slug
             const tag = get(node, 'frontmatter.tag') || node.fields.slug
             const fragmentLength = fragments.length;
+            const soundsLength = sounds.length;
             return (
               <div className="row" key={node.fields.slug}>
                 <Link className="page" style={{ boxShadow: 'none' }} to={node.fields.slug}>
                   {title}
                 </Link>
-                {fragments.map((d,i) =>  <img className="fragments" key={i} src={fragments[Math.floor(Math.random() * fragmentLength)].path}/>) }
+                {fragments.map((d,i) =>  
+                  <div key={i} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} >
+                    <audio ref={this.onRef}  >
+                      <source src={sounds[Math.floor(Math.random() * soundsLength)].path} type="audio/mp3" />
+                    </audio>
+                    <img className="fragments" 
+                    src={fragments[Math.floor(Math.random() * fragmentLength)].path}
+                    />
+                  </div>
+                )}
               </div>
             )
           })}

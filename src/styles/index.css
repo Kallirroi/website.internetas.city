@@ -71,7 +71,6 @@ a:visited {
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-content: flex-start;
-	/*border: 1px solid;*/
 }
 
 .row > .page {
@@ -80,6 +79,7 @@ a:visited {
 	text-transform: uppercase;
 	line-height: 1.5;
 	font-family: 'NeueHaasGrotRoman';
+	/*border: 1px solid;*/
 }
 
 .row > .page:hover {
@@ -88,13 +88,16 @@ a:visited {
 
 /*------------------------fragments------------------------*/
 
-.row  > img.fragments {
+.row  > div {
 	margin: auto; 
-	width: 60px;
 	align-self: center;
 }
 
-.row  >  img.fragments:hover {
+.row  > div >  img.fragments {
+	width: 60px;
+}
+
+.row  >  div > img.fragments:hover {
 	filter: drop-shadow(6px 6px 20px #aaa) hue-rotate(180deg);
 }
 
