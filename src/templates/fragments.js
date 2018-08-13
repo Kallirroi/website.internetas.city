@@ -1,29 +1,44 @@
 export const fragments = [
 	{
-		path: 'images/1.png'
+		path: 'images/1_still.png'
 	},
 	{
-		path: 'images/2.png'
+		path: 'images/2_still.png'
 	},
 	{
-		path: 'images/3.png'
+		path: 'images/3_still.png'
 	},
 	{
-		path: 'images/4.png'
+		path: 'images/4_still.png'
 	},
 	{
-		path: 'images/5.png'
+		path: 'images/5_still.png'
 	},
 	{
-		path: 'images/6.png'
+		path: 'images/6_still.png'
 	},
 	{
-		path: 'images/7.png'
-	},	
-	{
-		path: 'images/8.png'
+		path: 'images/7_still.png'
 	},
 	{
-		path: 'images/11.png'
+		path: 'images/1_still.png'
+	},
+	{
+		path: 'images/2_still.png'
+	},
+	{
+		path: 'images/3_still.png'
+	},
+	{
+		path: 'images/4_still.png'
+	},
+	{
+		path: 'images/5_still.png'
+	},
+	{
+		path: 'images/6_still.png'
+	},
+	{
+		path: 'images/7_still.png'
 	}
 ];	

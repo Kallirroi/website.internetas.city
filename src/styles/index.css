@@ -26,7 +26,7 @@ body {
 	font-size: 14px;
 	overflow-y: hidden;
 	line-height: 1.5;
-	letter-spacing: 0.05rem;
+	letter-spacing: 0.02rem;
 }
 
 a {
@@ -44,18 +44,18 @@ a:visited {
 .pageTitle {
 	max-width: 90vw;
 	margin: 0 auto;
-	padding-top: 6vh;
-	padding-bottom: 6vh;
-	font-size: 2rem;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	font-size: 3rem;
 	font-family: 'NeueHaasGrotMedium';
-	letter-spacing: 0.2rem;
+	/*letter-spacing: 0.2rem;*/
 	/*border: 1px solid;*/
 }
 
 .index {
 	margin: 0 auto;
-	max-width: 90vw;
-	max-height: 90vh;
+	width: 90vw;
+	height: 90vh;
 	padding-top: 0vh;
 	/*border: 1px solid;*/
 }
@@ -64,7 +64,7 @@ a:visited {
 
 .index  > .row {
 	margin: 0 auto;
-	max-width: 90vw;
+	width: 90vw;
 	height: 14vh;
 	display: flex;
 	flex-direction: row;
@@ -94,7 +94,7 @@ a:visited {
 }
 
 .row  > div >  img.fragments {
-	width: 60px;
+	width: 70px;
 }
 
 .row  >  div > img.fragments:hover {
@@ -150,4 +150,35 @@ a.footer {
 	position: absolute;
 	bottom: 4vh;
 	font-family: 'NeueHaasGrotRoman';
+}
+
+/*------------------------mobile------------------------*/
+.App-Fallback {
+  box-sizing: border-box;
+  display: none;
+  color: #00f;
+  text-align: center;
+  font-family: 'NeueHaasGrotMedium';
+  margin-top: 10vh;
+}
+
+
+@media screen and (max-width: 800px) {
+	.fragments {
+		display: none;
+	}
+
+	.index  > .row {
+		height: 4vh;
+	}
+
+	.row > .page { 
+		width: 100%;
+	}
+
+
+	.App-Fallback {
+		display: block;
+	}
+
 }

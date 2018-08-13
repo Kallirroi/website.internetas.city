@@ -15,12 +15,14 @@ We used 119 sheets of cardboard to produce 360 volumes. The sheets were purchase
 ### Lasercutting
 The linked files below are all, for the most part, laser-cutting ready files. Included are the generic volumes in 3D, some guides, and they're made available in various file formats.
 
-[include links]
-[include images]
+<a href="./IAC_Lasercut.eps" target="_blank">EPS file</a>
 
+![](LasercutImages-01.png)
 
-### Spraypainting
-If you want to spray paint the cardboard, we suggest you do it right after the laser cutting step is done (and before you remove the cut cardboard from the sheet). We used the following spray paints:
-- one
-- two
-- three
+![](LasercutImages-02.png)
+
+![](LasercutImages-03.png)
+
+![](LasercutImages-04.png)
+
+![](LasercutImages-05.png)

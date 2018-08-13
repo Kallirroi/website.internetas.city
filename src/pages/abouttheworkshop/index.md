@@ -26,4 +26,6 @@ Are you interested in holding a workshop yourself? [Download the files](?).
 
 
 <b>useful links</b> <br>
-[are.na channel](https://www.are.na/kalli-retzepi/internet-as-a-city)
+[are.na channel 1](https://www.are.na/kalli-retzepi/internet-as-a-city)<br>
+[are.na channel 2](https://www.are.na/zhexi-zhang/dweb-workshop-internet-as-a-city)<br>
+[our slides](https://www.dropbox.com/s/35kbvap03hjgwes/Internet%20as%20a%20city.pdf)

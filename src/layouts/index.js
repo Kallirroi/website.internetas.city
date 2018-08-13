@@ -9,7 +9,7 @@ class Template extends React.Component {
       header = (
         <div className="pageTitle">
           <Link to={'/'} >
-            INTERNET AS A CITY
+            Internet as a city
           </Link>
         </div>
       )
@@ -17,7 +17,7 @@ class Template extends React.Component {
       header = (
         <div className="pageTitle">
           <Link to={'/'}>
-            INTERNET AS A CITY
+            Internet as a city
           </Link>
         </div>
       )

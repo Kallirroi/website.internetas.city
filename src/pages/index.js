@@ -55,6 +55,11 @@ class BlogIndex extends React.Component {
             )
           })}
           <a href="dat://internetasacity.hashbase.io/" className="footer">p2p version</a>
+          <div className="App-Fallback">
+            <div className="App-Fallback-Text">
+              This visualization is not yet fully built for mobile screens.
+            </div>
+          </div>
         </div>
     )
   }

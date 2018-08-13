@@ -10,7 +10,7 @@
 
 .postMain > .postBody {
   line-height: 1.5;
-  max-width: 30vw;
+  width: 30vw;
   margin: 0 auto;
   max-height: 80vh;
   overflow-y: scroll;
@@ -38,6 +38,10 @@
 
 .postBody > h4 {
 	font-weight: 500;
+}
+
+.postBody > img {
+  z-index: -2;
 }
 
 /* ------------- Screensaver---------------- */
@@ -72,4 +76,21 @@
 }
 #screensaver .item.active {
   opacity: 1;
+}
+
+/*------------------------fallback------------------------*/
+
+@media screen and (max-width: 800px) {
+  
+  .postMain > .postBody {
+    line-height: 1.5;
+    width: 40vw;
+    margin: 0 auto;
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding: 0 2vw 5vh 2vw;
+    margin-top: 15vh;
+    /*border: 1px solid;*/
+  }
+
 }
