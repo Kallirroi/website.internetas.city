@@ -7,6 +7,11 @@ Here are some photos we took while the workshop was unfolding.
 
 "Draw a website as a building or an environment"
 
+![IA](IA.jpg)
+
+
+![github](github.jpg)
+
 ![geocities](geocities.jpg)
 
 ![creativecommons](creativecommons.jpg)

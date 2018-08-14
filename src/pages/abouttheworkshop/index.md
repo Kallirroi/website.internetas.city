@@ -18,9 +18,7 @@ The first iteration of this workshop was held at the [Decentralized Web Summit 2
 
 Since then, then the program has been adopted by ArtsEd4All.
 
-We have some more iterations of this workshop that we are planning on the east coast. Are you interested in facilitating a workshop? [Email us!](studio.pasmal@gmail.com). 
-
-Are you interested in holding a workshop yourself? [Download the files](?).
+We have some more iterations of this workshop that we are planning on the east coast. Are you interested in facilitating a workshop? [Email us!](mailto:studio.pasmal@gmail.com). 
 
 <br>
 

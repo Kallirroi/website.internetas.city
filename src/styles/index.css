@@ -3,22 +3,22 @@
 
 @font-face {
   font-family: 'Akzidenz';
-  src: url('fonts/AkzidenzRegular.otf');
+  src: url('./fonts/AkzidenzRegular.otf');
 }
 
 @font-face {
   font-family: 'NeueHaasGrotRoman';
-  src: url('fonts/NeueHaasGrotRoman.otf');
+  src: url('./fonts/NeueHaasGrotRoman.otf');
 }
 
 @font-face {
   font-family: 'NeueHaasGrotLight';
-  src: url('fonts/NeueHaasGrotLight.otf');
+  src: url('./fonts/NeueHaasGrotLight.otf');
 }
 
 @font-face {
   font-family: 'NeueHaasGrotMedium';
-  src: url('fonts/NeueHaasGrotMedium.otf');
+  src: url('./fonts/NeueHaasGrotMedium.otf');
 }
 
 body {
