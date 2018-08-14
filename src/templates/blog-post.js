@@ -10,7 +10,6 @@ import "../styles/posts.css"
 class BlogPostTemplate extends React.Component {
   componentDidMount() {
     var screensaver = (function() {
-
       var 
         _durationBeforeSlide = 5000, //3000,
         _durationBeforeActivateSS = 6000, //60000,
@@ -20,10 +19,7 @@ class BlogPostTemplate extends React.Component {
       
       function start() {
         // console.log('Screensaver.start()');
-
-
         var $cont = $('#screensaver');
-        
         //$cont.addClass('active');
         $cont
           .addClass('starting')
@@ -49,12 +45,8 @@ class BlogPostTemplate extends React.Component {
 
       function stop() {
         // console.log('  stop()');
-
-      
         var $ss = $('#screensaver');
-
         $ss.fadeOut(_durationFade, function() {
-
           $ss
             .removeClass('active')
             .find('.item.active')
@@ -63,13 +55,11 @@ class BlogPostTemplate extends React.Component {
         });   
 
         clearTimeout(_timeoutSlide);
-
         initMouseTracking();
       }
 
       function mouseMoving() {
         // console.log('  mouseMoving()');
-
         clearTimeout(_timeoutTracking);
         
         _timeoutTracking = setTimeout(function() {
@@ -81,9 +71,7 @@ class BlogPostTemplate extends React.Component {
 
       function initMouseTracking() {
         // console.log('  initMouseTracking()');
-
         var $cont = $('#screensaver');
-
         if($cont.length > 0) {
 
           $('body').mousemove(function(){
@@ -100,37 +88,30 @@ class BlogPostTemplate extends React.Component {
 
       function stopMouseTracking() {
         // console.log('  stopMouseTracking()');
-
         $('body').unbind('mousemove');
         clearTimeout(_timeoutTracking);
       }
 
       function gotoNext() {
         // console.log('  gotoNext()');
-
         var 
           $cont = $('#screensaver'),
           $active = $cont.find('.item.active'),
           $next = $active.next();
-
         $active.removeClass('active');
-
         if($next.length > 0) {
 
           $next.addClass('active')
-            .css('right', Math.random() * 80 + 'vw')
-            .css('top', Math.random() * 90 + 'vh');
-
+            .css('left', Math.floor(Math.random() * 80)+ 'vw')
+            .css('top', Math.floor(Math.random() * 80) + 'vh');
         } else {
           
           $cont.find('.item').first().addClass('active');
         }
-
         _timeoutSlide = setTimeout(gotoNext, _durationBeforeSlide);
       }
 
       function throttle (callback, limit) {
-
         var wait = false;
         return function () {
           if (!wait) {
@@ -144,29 +125,22 @@ class BlogPostTemplate extends React.Component {
         }
       }
 
-
       return {
         init: function() {
-
           var $ss = $('#screensaver');
-
           _durationBeforeSlide = $ss.data('duration-scroll');
           _durationBeforeActivateSS = $ss.data('duration-start');
-
+          
           $ss.click(function() {
-            // console.log('Screensaver.click()');
-
             stop();
           });
-
-          $(document).keydown(function(e) {
-
-            var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
-            // console.log(key);
-
-            if (key){ //esc or space
-              stop();
-            }
+          $(document).keydown(function() {
+            console.log('key, stop')
+            stop();
+          });
+          $(document).mousedown(function() {
+            console.log('mouse, stop')
+            stop();
           });
         },
         initMouseTracking: initMouseTracking,
